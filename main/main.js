@@ -40,3 +40,8 @@ document.getElementById("color").addEventListener("click", () =>{
     let div_color = document.getElementById('color')
     div_color.style.backgroundColor=colors_gen()
 } )
+
+document.getElementById("color").addEventListener("click", () =>{
+    let audio = new Audio('snd/click.wav');
+    audio.play();
+} )
